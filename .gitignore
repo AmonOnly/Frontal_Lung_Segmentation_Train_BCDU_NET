@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+venv_backup/
+
+# IDE/editor
+.vscode/
+.idea/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Local project datasets and archives
+1/
+Base_CheXpert_IC/
+Base_CheXpert_IC.zip
+BCDU-Net_MSc-master.zip
+*.zip
+*.tar
+*.tar.gz
+
+# Root-level helper files not needed for public reproduction
+DataSetDownload.py
+*.ipynb
+
+# Original auxiliary project folders not needed for public reproduction
+BCDU-Net_MSc-master/README.md
+BCDU-Net_MSc-master/output_images/
+BCDU-Net_MSc-master/Retina Blood Vessel Segmentation/
+BCDU-Net_MSc-master/Skin Lesion Segmentation/
+BCDU-Net_MSc-master/Lung Segmentation/Reza_functions.py
+
+# Raw medical datasets and folders
+CXR_png/
+masks/
+ClinicalReadings/
+data/
+dataset/
+datasets/
+
+# Generated arrays
+processed_data/
+*.npy
+
+# Training artifacts and results
+results/
+logs/
+output/
+dataset_validation/
+models/
+*.weights.h5
+*.h5
+*.keras
+*.ckpt
+
+# Notebook checkpoints
+*.ipynb_checkpoints/

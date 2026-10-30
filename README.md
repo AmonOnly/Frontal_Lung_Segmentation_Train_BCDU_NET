@@ -269,6 +269,14 @@ If the original architecture is used as part of a publication, please cite the o
 }
 ```
 
+## Fine-tuning on CheXpert and use in the TCC
+
+This repository covers only the initial training on the Montgomery and Shenzhen datasets. On CheXpert images, this model reached a Dice of 0.838 against the CheXmask reference masks. The model was then fine-tuned with CheXmask masks of CheXpert images, raising the Dice on a held-out test split to 0.927.
+
+The fine-tuning, the segmentation of the CheXpert images, the similarity metrics and the statistical analyses are in the main TCC repository:
+
+- https://github.com/AmonOnly/TCC
+
 ## Notes
 
 This repository is designed to be reproducible and publication-ready on GitHub without uploading patient data, generated arrays, or large checkpoint files.
